@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/TopMiddleBot.css">
+    <title>Villa Monte Pizzeria &amp; Restaurant</title>
+    <meta charset="utf-8" />
+    <script src="/JS/JavaScript.js"></script>
+</head>
+<body>
+    
+    <div id="top">
+        <img id="logo" src="img/logo.png" onclick="setURL('/main.html')"/>
+        
+        <table id="locations" cellpadding="2px">
+            <tbody>
+                <tr>
+                    <td class="italicUnderline">OUR LOCATIONS:</td>
+                    <td>AMBOY RD 10307</td>
+                    <td class="boldWhite">718-984-9886</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>RICHMOND AVE 10314</td>
+                    <td class="boldWhite">718-494-6554</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>NEW DORP LANE 10306</td>
+                    <td class="boldWhite">718-668-0490</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>ARDEN AVE 10312</td>
+                    <td class="boldWhite">718-984-7100</td>
+                </tr>
+            </tbody>
+        </table>
+        <img id="featuring" src="img/featuring.png" onclick="setURL('/catering.html')" />
+        <button id="villaMonteTV" class="myButton" onclick="setURL('/villamontetv.html')">VILLA MONTE TV</button>
+
+        <button id="link1" class="aNavLink" onclick="setURL('/main.html')">HOME</button>
+        <button id="link2" class="aNavLink" onclick="setURL('/menu.html')">MENU</button>
+        <button id="link3" class="aNavLink" onclick="setURL('/about.html')">ABOUT</button>
+        <button id="link4" class="aNavLink" onclick="setURL('/gallery.html')">GALLERY</button>
+        <button id="link5" class="aNavLink" onclick="setURL('/contact.html')">CONTACT</button>
+        <button id="link6" class="aNavLink" onclick="setURL('/ourfamily.html')">OUR FAMILY</button>
+        <button id="link7" class="aNavLink" onclick="setURL('/bookaparty.html')">BOOK A PARTY</button>
+
+    </div>
+
+    <div id="middle">
+
+        <iframe id="activeWindow" name="myWindow" src="/main.html" onload="scroll(0,0);"></iframe>
+
+    </div>
+
+    </div>
+
+    <div id="bot">
+        <table id="storeHours" class="boldWhite">
+            <tr>
+                <td class="italicUnderline">Operating Hours:</td>
+                <td>MONDAY <span class="orangeHighlight">11:00 am – 11:00 pm</span></td>
+                <td>TUESDAY <span class="orangeHighlight">11:00 am – 11:00 pm</span></td>
+                <td>WEDNESDAY <span class="orangeHighlight">11:00 am – 11:00 pm</span></td>
+                <td>THURSDAY <span class="orangeHighlight">11:00 am – 11:00 pm</span></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td>FRIDAY <span class="orangeHighlight">11:00 am – 11:00 pm</span></td>
+                <td>SATURDAY <span class="orangeHighlight">11:00 am – 11:00 pm</span></td>
+                <td>SUNDAY <span class="orangeHighlight">11:00 am – 11:00 pm</span></td>
+            </tr>
+        </table>
+
+        <span id="todayBox">
+            Today is:
+            <script>
+                var todaysDate = new Date();
+                document.writeln(todaysDate.toDateString());
+            </script>
+        </span>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Villa Monte Pizzeria &amp; Restaurant</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/myInner.css">
+    <link rel="stylesheet" type="text/css" href="css/TopMiddleBot.css">
+    <script src="/JS/JavaScript.js"></script>
+    <style type="text/css">
+        .container {
+            width: 500px;
+            clear: both;
+        }
+
+            .container input {
+                width: 100%;
+                clear: both;
+            }
+    </style>
+</head>
+<body>
+    <h1>Contact</h1>
+    <p class="centerMe">
+        To inquire about our catering service,
+        <button class="myButton1 centerMe" onclick="setURLFromInner('/catering.html')">
+            click here to proceed to our Catering page
+        </button><br /><br />
+        We’re open 7 days a week, 11:00 AM to 11:00 PM.<br />
+        <br />
+        2811 Richmond Ave. Staten Island, NY 10314<br />
+        718-494-6554<br />
+        <br />
+        240 Arden Ave. Staten Island, NY 10312<br />
+        718-984-7100<br />
+        <br />
+        7001 Amboy Rd. Staten Island, NY 10307<br />
+        718-984-9886<br />
+        <br />
+        170 New Dorp Ln. Staten Island, NY 10306<br />
+        718-668-0490<br />
+        <br />
+        Get in touch by giving us a call or send us email using the form below.
+    </p>
+    <div class="container">
+        <form name="myForm" onsubmit="return validateForm()" action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post">
+            <table>
+                <tr>
+                    <td><label class="boldBig">First Name:</label></td>
+                    <td><input type="text" name="fname" /></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><label class="boldBig">Last Name:</label></td>
+                    <td><input type="text" name="lname" /></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><label class="boldBig">E-mail:* </label></td>
+                    <td><input type="text" name="email" /></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><label class="boldBig">Phone Number:* </label></td>
+                    <td><input type="text" name="phone" /</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><label class="boldBig">Message:</label><br /></td>
+                    <td>
+                        <textarea rows="4" cols="50" name="comment"></textarea>
+                    </td>
+
+                </tr>
+            </table><br />
+            <input style="width:222px;" class="myButton" value="Subscribe!" type="submit" />
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,218 @@
+﻿body {
+    background-color:none;
+}
+thead {
+    font-style:italic;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+table{
+    border:2px dotted white;
+    font-size:smaller;
+}
+
+#top {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 145px;
+    
+    background-image: url('../img/greenBack.jpg');
+    background-color: darkgreen;
+    border-bottom: 5px ridge darkgreen;
+    z-index: 5;
+}
+#logo{
+    position: absolute;
+    width:200px;
+    height:100px;
+    top:10px;
+    left:40px;
+    z-index:10;
+}
+#featuring{
+    position:absolute;
+    width:300px;
+    height:110px;
+    top:10px;
+    right:40px;
+}
+#middle {
+    background-image: url('../img/2.jpg');
+    background-color: darkseagreen;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 99%;
+    position: absolute;
+    left: 0;
+    top: 143px;
+    border-left: 10px groove #234d03;
+    z-index: 1;
+}
+#activeWindow{
+    position:absolute;
+    left: 17%;
+    width: 66%;
+    height: 75%;
+    border:0;
+
+    z-index:2;
+}
+#bot{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height:66px;
+    width:100%;
+    
+    background-image: url('../img/greenBack.jpg');
+    background-color:darkgreen;
+    color:burlywood;
+    border-top: 3px solid burlywood;
+    z-index:4;
+}
+
+.aNavLink {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    background:red;
+    z-index:100;
+    position:absolute;
+    bottom:0px;
+    width:130px;
+    text-align:center;
+    color: white;
+}
+
+
+.aNavLink:hover{
+    background:darkseagreen;
+
+}
+#villaMonteTV{
+    position:absolute;
+    top: 35px;
+    left: 685px;
+}
+.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #8a2a21;
+	-webkit-box-shadow: 3px 4px 0px 0px #8a2a21;
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
+	background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-o-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:-ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24437',GradientType=0);
+	background-color:#c62d1f;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f24437), color-stop(1, #c62d1f));
+	background:-moz-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-webkit-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-o-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:-ms-linear-gradient(top, #f24437 5%, #c62d1f 100%);
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24437', endColorstr='#c62d1f',GradientType=0);
+	background-color:#f24437;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#link1{
+    position:absolute;
+    left: 0px;
+}
+#link2{
+    position:absolute;
+    left: 130px;
+}
+#link3{
+    position:absolute;
+    left: 260px;
+}
+#link4{
+    position:absolute;
+    left: 390px;
+}
+#link5{
+    position:absolute;
+    left: 520px;
+}
+#link6{
+    position:absolute;
+    left: 650px;
+}
+#link7{
+    position:absolute;
+    left: 780px;
+}
+
+#locations{
+    position:relative;
+    top: 3px;
+    left: 250px;
+    color: white;
+    font-weight: bold;
+}
+
+.italicUnderline{
+    font-size:large;
+    font-style:italic;
+    text-decoration:underline;
+
+}
+.italicWhite{
+    font-style:italic;
+    color:white;
+}
+.boldWhite{
+    font-weight:bold;
+    color:white;
+    font-size: large;
+}
+.boldBig{
+    font-weight:bolder;
+    font-size: larger;
+}
+.orangeHighlight{
+    font-size-adjust:none;
+    font-size:large;
+    color:orange;
+}
+#todayBox{
+    position:absolute;
+    right:0px;
+    top:-35px;
+    font-size:large;
+    background: #FFFFFF;
+    border: 3px groove #000000;
+    color: #000000;
+    padding:3px;
+    text-align:center;
+    font-style: italic;
+}
+#storeHours{
+    position:relative;
+    top:5px;
+    left:5px;
+}
